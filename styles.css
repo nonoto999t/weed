@@ -1,0 +1,70 @@
+body {
+    font-family: 'Boontook', sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filter {
+    margin: 20px auto;
+}
+
+#shopGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.shopCard {
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.shopCard:hover {
+    transform: scale(1.05);
+}
+
+.shopImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: #444;
+}
+
+.shopDetails {
+    padding: 10px;
+}
+
+.shopDetails h2 {
+    color: #e50914;
+}
+
+.shopDetails p {
+    margin: 5px 0;
+}
+
+.callButton {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+}
+
+.callButton:hover {
+    background-color: #b1060f;
+}
